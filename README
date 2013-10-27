@@ -1,0 +1,14 @@
+WARG image stitcher (http://warg-explorer16-autopilot.googlecode.com/) path calculations
+Features:
+- random map generation
+- dump cubic Bezier splines from .blend
+- exact evaluation for B(t), B'(t), and B''(t) (t is not time)
+- memoizing arclength, speed, and speed' calculation using quadrature integration
+- arclength reparameterization (i.e. displacement as a function of time at constant/configurable speed)
+- compute transformation matrices from one point to another
+- reconstruct map from consecutive images along the path
+To do:
+- fix rpy equations
+- simplify matrix calculations
+- eliminate the factor of 1.057...
+- use HSI instead of writing .pto
